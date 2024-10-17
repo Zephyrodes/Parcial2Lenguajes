@@ -1,0 +1,2 @@
+funcion f(x) = sin(2 * pi * x)
+transformada de f(x)
