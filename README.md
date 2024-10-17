@@ -32,7 +32,18 @@ En este punto se encuentra una aplicación en Python que calcula la Transformada
    git clone https://github.com/tuusuario/tu-repo-nombre.git
    cd tu-repo-nombre
 
-2. **Instala los paquetes de Python requeridos**:
+2. Configuración del Entorno Virtual e Instalación de Dependencias
+
+ **Crea un entorno virtual** con el siguiente comando:
+   ```bash
+   python3 -m venv myenv
+   ```
+**Activa el entorno virtual** con el siguiente comando:
+   ```bash
+   source myenv/bin/activate
+   ```
+
+3. **Instala los paquetes de Python requeridos**:
    ```bash
    pip install antlr4-python3-runtime numpy
 
