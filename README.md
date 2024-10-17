@@ -22,6 +22,30 @@ Este punto es un evaluador de expresiones de números complejos utilizando ANTLR
    ```bash
    git clone https://github.com/Zephyrodes/Parcial2Lenguajes.git
    cd Parcial2Lenguajes/Punto1
+   
+2. Configuración del Entorno Virtual e Instalación de Dependencias
+
+ **Crea un entorno virtual** con el siguiente comando:
+   ```bash
+   python3 -m venv myenv
+   ```
+**Activa el entorno virtual** con el siguiente comando:
+   ```bash
+   source myenv/bin/activate
+   ```
+
+3. **Instala los paquetes de Python requeridos**:
+   ```bash
+   pip install antlr4-python3-runtime
+   ```
+   
+### Genera los archivos de ANTLR (si no lo has hecho ya)
+
+Asegúrate de tener ANTLR instalado. Sigue las instrucciones en la página de ANTLR para la configuración. Ejecuta los siguientes comandos para generar el lexer y el parser:
+
+```bash
+antlr4 -Dlanguage=Python3 Complejos.g4
+```
 
 ## Punto 3 - Calculadora de Transformada de Fourier
 
