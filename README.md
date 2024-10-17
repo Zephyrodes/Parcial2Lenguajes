@@ -18,11 +18,10 @@ Este punto es un evaluador de expresiones de números complejos utilizando ANTLR
 
 ## Instalación
 
-1. Clona el repositorio:
-
+1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/numeros-complejos.git
-   cd numeros-complejos
+   git clone https://github.com/Zephyrodes/Parcial2Lenguajes.git
+   cd Parcial2Lenguajes/Punto1
 
 ## Punto 3 - Calculadora de Transformada de Fourier
 
