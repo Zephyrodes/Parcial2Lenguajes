@@ -57,4 +57,19 @@ funcion f(x) = sin(2 * pi * x); transformada de F(f);
 ```bash
 python3 FourierEjecut.py programa_fourier.txt
 ```
-```
+
+
+## Descripción de la Gramática
+
+La gramática para este proyecto está definida en `Fourier.g4` e incluye reglas para:
+
+- **Expresiones matemáticas** (suma, resta, multiplicación, división, potencia).
+- **Declaraciones de funciones**.
+- **Declaraciones de transformadas de Fourier**.
+- **Uso de constantes** como `pi` y funciones incorporadas como `sin`, `cos` y `exp`.
+
+### Reglas Clave de la Gramática
+
+- **Expresiones**: Pueden estar compuestas de números, variables y operaciones matemáticas.
+- **Declaraciones de Funciones**: Definen una función con parámetros y una expresión.
+- **Transformada de Fourier**: Especifica una función para calcular su transformada de Fourier.
