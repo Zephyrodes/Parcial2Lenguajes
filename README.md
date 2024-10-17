@@ -73,3 +73,28 @@ La gramática para este proyecto está definida en `Fourier.g4` e incluye reglas
 - **Expresiones**: Pueden estar compuestas de números, variables y operaciones matemáticas.
 - **Declaraciones de Funciones**: Definen una función con parámetros y una expresión.
 - **Transformada de Fourier**: Especifica una función para calcular su transformada de Fourier.
+
+- 
+## Ejemplos
+
+### Ejemplo 1: Función Seno
+
+```plaintext
+funcion f(x) = sin(2 * pi * x);
+transformada de F(f);
+```
+### Ejemplo 2: Función Coseno
+```plaintext
+funcion g(x) = cos(3 * pi * x);
+transformada de G(g);
+```
+### Ejemplo 3: Combinación de Funciones
+```plaintext
+funcion h(x) = sin(2 * pi * x) + cos(3 * pi * x);
+transformada de H(h);
+```
+### Ejemplo 4: Función con Potencia
+```plaintext
+funcion j(x) = (sin(2 * pi * x))^2;
+transformada de J(j);
+```
