@@ -55,5 +55,6 @@ funcion f(x) = sin(2 * pi * x); transformada de F(f);
 
 2. **Ejecuta el programa**:
 ```bash
-python3 FourierEjecut.py
+python3 FourierEjecut.py programa_fourier.txt
+```
 ```
