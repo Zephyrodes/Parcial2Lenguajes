@@ -1,5 +1,29 @@
 # Parcial 2 Lenguajes
 
+## Punto 1 - Evaluador de Números Complejos
+
+Este punto es un evaluador de expresiones de números complejos utilizando ANTLR y Python. Permite realizar operaciones como suma, resta, multiplicación y división en números complejos ingresados en forma textual.
+
+## Características
+
+- Soporte para operaciones básicas de números complejos: suma, resta, multiplicación y división.
+- Entrada de expresiones complejas a través de la consola.
+- Manejo de partes reales e imaginarias, incluyendo números negativos y diferentes formatos de entrada.
+- Uso de ANTLR para el análisis y la evaluación de expresiones.
+
+## Requisitos
+
+- Python 3.12
+- ANTLR 4.13.2
+
+## Instalación
+
+1. Clona el repositorio:
+
+   ```bash
+   git clone https://github.com/tu-usuario/numeros-complejos.git
+   cd numeros-complejos
+
 ## Punto 3 - Calculadora de Transformada de Fourier
 
 En este punto se encuentra una aplicación en Python que calcula la Transformada de Fourier Discreta (DFT) de funciones matemáticas utilizando ANTLR para el análisis sintáctico. Permite a los usuarios definir funciones, aplicar transformadas de Fourier y evaluar expresiones como seno, coseno y funciones exponenciales.
