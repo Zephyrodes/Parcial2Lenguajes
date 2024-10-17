@@ -44,7 +44,7 @@ Este punto es un evaluador de expresiones de números complejos utilizando ANTLR
 Asegúrate de tener ANTLR instalado. Sigue las instrucciones en la página de ANTLR para la configuración. Ejecuta los siguientes comandos para generar el lexer y el parser:
 
 ```bash
-antlr4 -Dlanguage=Python3 Complejos.g4
+antlr4 -Dlanguage=Python3 Complejos.g4 -listener
 ```
 
 ## Punto 3 - Calculadora de Transformada de Fourier
@@ -100,7 +100,7 @@ En este punto se encuentra una aplicación en Python que calcula la Transformada
 Asegúrate de tener ANTLR instalado. Sigue las instrucciones en la página de ANTLR para la configuración. Ejecuta los siguientes comandos para generar el lexer y el parser:
 
 ```bash
-antlr4 -Dlanguage=Python3 Fourier.g4
+antlr4 -Dlanguage=Python3 Fourier.g4 -listener -visitor
 ```
 
 ## Uso
