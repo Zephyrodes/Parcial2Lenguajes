@@ -1,6 +1,6 @@
 # Parcial 2 Lenguajes
 
-# Punto 3 - Calculadora de Transformada de Fourier
+## Punto 3 - Calculadora de Transformada de Fourier
 
 En este punto se encuentra una aplicación en Python que calcula la Transformada de Fourier Discreta (DFT) de funciones matemáticas utilizando ANTLR para el análisis sintáctico. Permite a los usuarios definir funciones, aplicar transformadas de Fourier y evaluar expresiones como seno, coseno y funciones exponenciales.
 
