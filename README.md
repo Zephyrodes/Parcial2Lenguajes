@@ -42,8 +42,18 @@ Asegúrate de tener ANTLR instalado. Sigue las instrucciones en la página de AN
 
 ```bash
 antlr4 -Dlanguage=Python3 Fourier.g4
+```
 
 ## Uso
 
 1. **Crea un archivo de texto** llamado `programa_fourier.txt` con tus funciones matemáticas y declaraciones de transformada de Fourier.  
-   Contenido de ejemplo:
+Contenido de ejemplo:
+   
+```bash
+funcion f(x) = sin(2 * pi * x); transformada de F(f);
+```
+
+2. **Ejecuta el programa**:
+```bash
+python3 FourierEjecut.py
+```
