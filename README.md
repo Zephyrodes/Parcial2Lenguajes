@@ -17,13 +17,12 @@ En este punto se encuentra una aplicación en Python que calcula la Transformada
 
 - Definir funciones matemáticas utilizando una sintaxis simple.
 - Realizar la Transformada de Fourier Discreta (DFT) sobre funciones definidas.
-- Soporte para varias operaciones matemáticas, incluyendo adición, sustracción, multiplicación, división y exponentiación.
-- Soporte incorporado para funciones matemáticas comunes como `sin`, `cos` y `exp`.
+- Contiene varias operaciones matemáticas, incluyendo adición, sustracción, multiplicación, división y exponentiación.
 
 ## Requisitos
 
-- Python 3.x
-- ANTLR 4.x
+- Python 3.12
+- ANTLR 4.13.2
 - NumPy
 
 ## Instalación
