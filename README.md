@@ -29,8 +29,8 @@ En este punto se encuentra una aplicación en Python que calcula la Transformada
 
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tuusuario/tu-repo-nombre.git
-   cd tu-repo-nombre
+   git clone https://github.com/Zephyrodes/Parcial2Lenguajes.git
+   cd Parcial2Lenguajes/Punto3
 
 2. Configuración del Entorno Virtual e Instalación de Dependencias
 
@@ -46,7 +46,8 @@ En este punto se encuentra una aplicación en Python que calcula la Transformada
 3. **Instala los paquetes de Python requeridos**:
    ```bash
    pip install antlr4-python3-runtime numpy
-
+   ```
+   
 ### Genera los archivos de ANTLR (si no lo has hecho ya)
 
 Asegúrate de tener ANTLR instalado. Sigue las instrucciones en la página de ANTLR para la configuración. Ejecuta los siguientes comandos para generar el lexer y el parser:
