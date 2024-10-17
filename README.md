@@ -46,6 +46,104 @@ Asegúrate de tener ANTLR instalado. Sigue las instrucciones en la página de AN
 ```bash
 antlr4 -Dlanguage=Python3 Complejos.g4 -listener
 ```
+## Uso
+
+1. Ejecuta el script principal:
+
+   ```bash
+   python3 complejos.py
+   ```
+
+2. Ingresar Expresión Compleja
+
+Cuando el programa lo solicite, ingresa una expresión con números complejos. Ejemplo:
+
+```bash
+   (2 + 7i) + (3 - 4i)
+```
+
+3.Después de ingresar la expresión, el programa calculará y mostrará el resultado. Ejemplo:
+
+```bash
+Resultado: (5 + 3j)
+```
+
+## Punto 2 - Funciones MAP y FILTER en Python
+
+Este proyecto implementa un lenguaje sencillo que soporta dos funciones principales, `MAP` y `FILTER`, utilizando ANTLR para generar el parser y Python como lenguaje objetivo. Las funciones permiten operar sobre objetos iterables, como listas y tuplas.
+
+## Características
+
+- **MAP**: Aplica una función a cada elemento de un objeto iterable y devuelve una nueva colección con los resultados.
+  - Ejemplo: `MAP(double, [1, 2, 3])` devuelve `[2, 4, 6]`
+  
+- **FILTER**: Filtra los elementos de una colección según una función condicional, devolviendo una nueva colección con los elementos que cumplen la condición.
+  - Ejemplo: `FILTER(is_even, (1, 2, 3, 4))` devuelve `[2, 4]`
+
+## Estructura del Proyecto
+
+```plaintext
+.
+├── IterableFunctions.g4        # Archivo de gramática ANTLR
+├── IterableFunctionsLexer.py   # Lexer generado por ANTLR
+├── IterableFunctionsParser.py  # Parser generado por ANTLR
+├── IterableFunctionsVisitor.py # Visitor generado por ANTLR
+├── Main.py                     # Archivo principal de ejecución
+└── README.md                   # Documentación del proyecto
+```
+
+## Requisitos
+
+- Python 3.12
+- ANTLR 4.13.2
+
+## Instalación
+
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/Zephyrodes/Parcial2Lenguajes.git
+   cd Parcial2Lenguajes/Punto2
+   
+2. Configuración del Entorno Virtual e Instalación de Dependencias
+
+ **Crea un entorno virtual** con el siguiente comando:
+   ```bash
+   python3 -m venv myenv
+   ```
+**Activa el entorno virtual** con el siguiente comando:
+   ```bash
+   source myenv/bin/activate
+   ```
+
+3. **Instala los paquetes de Python requeridos**:
+   ```bash
+   pip install antlr4-python3-runtime
+   ```
+   
+### Genera los archivos de ANTLR (si no lo has hecho ya)
+
+Asegúrate de tener ANTLR instalado. Sigue las instrucciones en la página de ANTLR para la configuración. Ejecuta los siguientes comandos para generar el lexer y el parser:
+
+```bash
+antlr4 -Dlanguage=Python3 IterableFunctions.g4
+```
+## Uso
+
+1. Ejecuta el script principal:
+
+   ```bash
+   python3 main.py
+   ```
+
+2. Introduce el código con el formato correcto en la consola. Ejemplos:
+
+```bash
+   MAP(double, [1, 2, 3, 4, 5])
+```
+
+```bash
+   FILTER(is_even, (1, 2, 3, 4, 5))
+```
 
 ## Punto 3 - Calculadora de Transformada de Fourier
 
