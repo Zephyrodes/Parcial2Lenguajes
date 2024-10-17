@@ -31,3 +31,14 @@ En este punto se encuentra una aplicación en Python que calcula la Transformada
    ```bash
    git clone https://github.com/tuusuario/tu-repo-nombre.git
    cd tu-repo-nombre
+
+2. **Instala los paquetes de Python requeridos**:
+   ```bash
+   pip install antlr4-python3-runtime numpy
+
+# Genera los archivos de ANTLR (si no lo has hecho ya)
+
+Asegúrate de tener ANTLR instalado. Sigue las instrucciones en la página de ANTLR para la configuración. Ejecuta los siguientes comandos para generar el lexer y el parser:
+
+```bash
+antlr4 -Dlanguage=Python3 Fourier.g4
